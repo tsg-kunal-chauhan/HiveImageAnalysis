@@ -34,7 +34,7 @@ These variables are shared by several examples
 # Detect faces, Detect adult or racy content, Detect the color scheme, 
 # Detect domain-specific content, Detect image types, Detect objects
 images_folder = os.path.join (os.path.dirname(os.path.abspath(__file__)), "images")
-remote_image_url = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/landmark.jpg"
+remote_image_url = "https://github.com/tsg-kunal-chauhan/HiveImageAnalysis/blob/master/MicrosoftTeams-image.png?raw=true"
 '''
 END - Quickstart variables
 '''
@@ -67,7 +67,7 @@ This API call can also extract handwriting style text (not shown).
 '''
 print("===== Read File - remote =====")
 # Get an image with text
-read_image_url = "https://raw.githubusercontent.com/MicrosoftDocs/azure-docs/master/articles/cognitive-services/Computer-vision/Images/readsample.jpg"
+read_image_url = "https://github.com/tsg-kunal-chauhan/HiveImageAnalysis/blob/master/MicrosoftTeams-image.png?raw=true"
 
 # Call API with URL and raw response (allows you to get the operation location)
 read_response = computervision_client.read(read_image_url,  raw=True)
